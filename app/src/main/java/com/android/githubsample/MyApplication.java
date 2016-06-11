@@ -23,4 +23,8 @@ public class MyApplication extends Application {
         }
         return okHttpClient;
     }
+
+    public static MyApplication getInstance(){
+        return instance;
+    }
 }
